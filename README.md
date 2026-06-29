@@ -12,21 +12,19 @@
     <button onclick="setLanguage('en')">EN</button>
   </div>
 
-<header>
-  <h1>Javier Vargas</h1>
-  <p>ESG & Carbon Data Analyst</p>
+<h1 data-es="Javier Vargas" data-en="Javier Vargas"></h1>
+  <p data-es="ESG & Analista de Datos de Carbono"
+     data-en="ESG & Carbon Data Analyst"></p>
 </header>
 
-<section class="about">
-  <h2>Sobre mí</h2>
-  <p>
-    Analista enfocado en ESG, emisiones de carbono (Scope 1, 2 y 3),
-    análisis de datos ambientales y visualización para toma de decisiones.
-  </p>
+<section>
+  <h2 data-es="Sobre mí" data-en="About me"></h2>
+  <p data-es="Ingeniero Ambiental y Analista enfocado en Reportaje ESG, energias renovables y emisiones de carbono. Con 3 años de experiencia en supervisión de Seguridad y Medio Ambiente, Análisis de datos y reportaje ESG. "
+     data-en="Environmental Engineer and Analyst with over 3 years of experience in ESG reporting, renewable energy, and carbon emissions. Proven expertise in supervising environmental, health, and safety (EHS) programs, data analysis, and ESG reporting."></p>
 </section>
 
 <section class="skills">
-  <h2>Habilidades</h2>
+  <h2 data-es= "Habilidades" data-en= "Skills"></h2>
   <ul>
     <li>Python (pandas, matplotlib)</li>
     <li>SQL</li>
@@ -60,19 +58,19 @@
 </section>
 
 <section class="cv">
-  <h2>Currículum</h2>
+  <h2 data-es="Currículum" data-en="CV/Resume"></h2>
   <a href="assets/cv.pdf" download>Descargar CV (PDF)</a>
 </section>
 
 <section class="contact">
-  <h2>Contacto</h2>
-  <p>Email: tuemail@email.com</p>
+  <h2 data-es="Contacto" data-en="Contact information"></h2>
+  <p>Email: javo.vg@gmail.com</p>
   <p>LinkedIn: linkedin.com/in/tuperfil</p>
   <p>GitHub: github.com/tuusuario</p>
 </section>
 
 <footer>
-  <p>© 2026 Javier Vargas</p>
+  <p>© 2026 Site Created by: Javier Vargas</p>
 </footer>
 
 <script src="script.js"></script>
