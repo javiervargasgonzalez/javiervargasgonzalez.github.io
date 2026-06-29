@@ -28,7 +28,7 @@
 
  <div class="project">
     <h3 data-es="Análisis Global de CO₂ por País" 
-      data-en="Environmental Analysis Report on Global Emissions"</h3>
+      data-en="Environmental Analysis Report on Global Emissions"></h3>
     <p data-es= "Dataset por región y año, visualización de tendencias y escenarios de reducción de emisiones."
       data-en="Dataset by region and year, visualization of trends and emission reduction scenarios.">
     </p>
@@ -37,16 +37,16 @@
       
    <div class="project">
     <h3 data-es="PIEZAS DE AUTOMÓVILES CON DEMANDA EN EE. UU. EN 2024" 
-      data-en="AUTO PARTS IN DEMAND IN THE US IN 2024"</h3>
+      data-en="AUTO PARTS IN DEMAND IN THE US IN 2024"></h3>
     <p data-es= "Este informe analiza el desempeño de las autopartes más demandadas en Estados Unidos durante 2024 y cómo han variado sus niveles de demanda en comparación con años anteriores, basándose en datos de la NHTSA. El documento ofrece una visión general del sector de autopartes en el último año y aporta perspectivas de cara al futuro. Se transformaron y procesaron datos mediante SQL y hojas de cálculo para garantizar su integridad y validez. Se crearon visualizaciones con Tableau y hojas de cálculo para identificar información clave."
-      data-en="This report analyzes the performance of the auto parts in demand in United States in 2024 and how they have increased or decreased compared to previous years. The source is NHTSA. It´s an overview of the auto parts industry in the past year and gives insights for the future. Transformed and processed data using SQL and Spreadsheets to ensure data completeness and validity. Created visualizations using Tableau and Spreadsheets to identify key insights.">
+      data-en="This report analyzes the performance of the auto parts in demand in United States in 2024 and how they have increased or decreased compared to previous years. The source is NHTSA. It´s an overview of the auto parts industry in the past year and gives insights for the future. Transformed and processed data using SQL and Spreadsheets to ensure data completeness and validity. Created visualizations using Tableau and Spreadsheets to identify key insights." >
     </p>
     <a href="https://www.kaggle.com/code/javiervargasgonzlez/auto-parts-in-demand-in-the-us-in-2024">See Project</a>
   </div>
       
   <div class="project">
     <h3 data-es="Caso de estudio de análisis de Cyclistic Bike-Share" 
-      data-en="Cyclistic Bike-Share Analysis Case Study"</h3>
+      data-en="Cyclistic Bike-Share Analysis Case Study"></h3>
     <p data-es= "El caso de estudio de Cyclistic Bike Share es el proyecto final del Certificado Profesional de Análisis de Datos de Google. En este caso de estudio, aborda una estrategia de marketing destinada a convertir a los usuarios ocasionales en miembros de Cyclistic. El análisis sigue las etapas del proceso de análisis de datos: Preguntar, Preparar, Procesar, Analizar, Compartir y Actuar. Programación en R. Procesamiento y análisis de más de 2.836.654 registros de bicicletas compartidas correspondientes a 2024. Agregación y visualización de datos mediante el uso de ggplot2, tidyr y dplyr."
       data-en="The Cyclistic Bike Share Case Study is the final capstone project for the Google Data Analytics Professional Certificate. In this project, an analysis of user data was used to design a marketing strategy aimed at converting casual riders into annual members. The study followed the six core stages of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act. Programming in R. Processed and Analyzed over 2836654 bike-share records of 2024. Aggregated and visualized the data by using ggplot2, tidyr,dyplr.">
     </p>
@@ -67,7 +67,7 @@
       data-en="TECH Global University"></li>
     <li>2023 - 2024</li>
     <li data-es="Master en Tecnología de Hidrógeno"
-      data-es="Master in Hydrogen Technology"></li>
+      data-en="Master in Hydrogen Technology"></li>
     <li data-es="Certificado Profesional de Análisis de datos de Google"
       data-en="Google Data Analytics Professional Certificate"></li>
     <li>2024-2025</li>
