@@ -114,7 +114,8 @@
   <p>Projects: </p><a href="https://www.kaggle.com/javiervargasgonzlez)">Projects</a>
 </section>
 <section class="language">
-  <h2 data-es="Idiomas" data-en="Languages"
+  <h2 data-es="Idiomas" data-en="Languages"></h2>
+  
     <ul>
     <li data-es="Español (Nativo)" 
       data-en="Spanish= (Native)"></li>
