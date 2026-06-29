@@ -13,8 +13,8 @@
   </div>
 
 <h1 data-es="Javier Vargas" data-en="Javier Vargas"></h1>
-  <p data-es="ESG & Analista de Datos de Carbono"
-     data-en="ESG & Carbon Data Analyst"></p>
+  <p data-es="Ingeniero ambiental, ESG & Analista de Datos de Carbono"
+     data-en="Environmental Engineer, ESG & Carbon Data Analyst"></p>
 </header>
 
 <section>
@@ -35,7 +35,7 @@
 </section>
 
 <section class="portfolio">
-  <h2>Portafolio</h2>
+  <h2 data-es="Portafolio" data-en="Portfolio"></h2>
 
   <div class="project">
     <h3>Reporte ESG – Empresa Cementera</h3>
@@ -65,8 +65,9 @@
 <section class="contact">
   <h2 data-es="Contacto" data-en="Contact information"></h2>
   <p>Email: javo.vg@gmail.com</p>
-  <p>LinkedIn: linkedin.com/in/tuperfil</p>
-  <p>GitHub: github.com/tuusuario</p>
+  <p>LinkedIn: linkedin.com/in/javier-vargas-gonza</p>
+  <p>GitHub: (https://github.com/javiervargasgonzalez)</p>
+  <p>Kaggle: https://www.kaggle.com/javiervargasgonzlez </p>
 </section>
 
 <footer>
