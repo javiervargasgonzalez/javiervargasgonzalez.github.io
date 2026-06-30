@@ -13,9 +13,9 @@
   <button onclick="showView('about')">About</button>
   <button onclick="showView('contact')">Contact</button>
 </nav>
-  
-<header>
-  <div class="lang-switch">
+  <div class="view home active">
+  <header>
+    <div class="lang-switch">
     <button onclick="setLanguage('es')">ES</button>
     <button onclick="setLanguage('en')">EN</button>
   </div>
@@ -23,19 +23,17 @@
 <h1 data-es="Javier Vargas González" data-en="Javier Vargas"></h1>
   <p data-es="Ingeniero ambiental, ESG & Analista de Datos de Carbono"
      data-en="Environmental Engineer, ESG & Carbon Data Analyst"></p>
-</header>
-
-<section>
-  <h2 data-es="Sobre mí" data-en="About me"></h2>
+  </header>
+</div>
+<div class="view about">
+  <section>
+    <h2 data-es="Sobre mí" data-en="About me"></h2>
   <p data-es="Ingeniero Ambiental y Analista enfocado en Reportaje ESG, energias renovables y emisiones de carbono. Con 3 años de experiencia en supervisión de Seguridad y Medio Ambiente, Análisis de datos y reportaje ESG. "
      data-en="Environmental Engineer and Analyst with over 3 years of experience in ESG reporting, renewable energy, and carbon emissions. Proven expertise in supervising environmental, health, and safety (EHS) programs, data analysis, and ESG reporting."></p>
-</section>
+  </section>
 
-<section class="portfolio">
-  <h2 data-es="Portafolio" data-en="Portfolio"></h2>
-
-<section class="studies">
-<h2 data-es="Formación académica y Certificaciones" data-en="Education"></h2>
+  <section class="studies">
+    <h2 data-es="Formación académica y Certificaciones" data-en="Education"></h2>
   <ul>
     <li data-es="Universidad de Guanajuato"
       data-en="University of Guanajuato"></li>
@@ -56,10 +54,10 @@
     <li data-es="Curso: Reportaje de Sustentabilidad: De Regulación a implementación"
       data-en="Certificate: Sustainability Reporting: From Regulation to Implementation"></li>
   </ul>
-</section>
+  </section>
 
-<section class="skills">
-  <h2 data-es= "Habilidades" data-en= "Skills"></h2>
+  <section class="skills">
+    <h2 data-es= "Habilidades" data-en= "Skills"></h2>
   <ul>
     <li>Python (pandas, matplotlib)</li>
     <li>SQL</li>
@@ -77,10 +75,10 @@
     <li data-es="Sistemas de gestión ambiental"
       data-en="Environmental Management Systems"></li>
   </ul>
-</section>
+  </section>
 
-<section class="language">
-  <h2 data-es="Idiomas" data-en="Languages"></h2>
+  <section class="language">
+      <h2 data-es="Idiomas" data-en="Languages"></h2>
   
     <ul>
     <li data-es="Español (Nativo)" 
@@ -88,9 +86,12 @@
     <li data-es="Inglés (Profesional)" 
       data-en="English= (Proficient)"></li>
   </ul>
-</section>
-
+  </section>
 </div>
+
+<div class="view portfolio">
+  <section class="portfolio">
+    <h2 data-es="Portafolio" data-en="Portfolio"></h2>
 
  <div class="project">
     <h3 data-es="Análisis Global de CO₂ por País" 
@@ -117,23 +118,28 @@
       data-en="The Cyclistic Bike Share Case Study is the final capstone project for the Google Data Analytics Professional Certificate. In this project, an analysis of user data was used to design a marketing strategy aimed at converting casual riders into annual members. The study followed the six core stages of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act. Programming in R. Processed and Analyzed over 2836654 bike-share records of 2024. Aggregated and visualized the data by using ggplot2, tidyr,dyplr.">
     </p>
     <a href="https://www.kaggle.com/code/javiervargasgonzlez/cyclistic-bike-share-analysis-case-study">See Project</a>
-</div>
- 
-</section>
+  </div>
  
 
+  </section>
+
+
+  
+ 
 <div class="view contact">
-<section class="cv">
-  <h2 data-es="Currículum" data-en="CV/Resume"></h2>
-  <a href="Javier_Vargas.ESG_Analyst_EN.pdf" download>Descargar CV (PDF)</a>
-</section>
-
-<section class="contact">
-  <h2 data-es="Contacto" data-en="Contact information"></h2>
+  <section class="contact">
+    <h2 data-es="Contacto" data-en="Contact information"></h2>
   <p>Email: </p><a href="javo.vg@gmail.com">javo.vg@gmail.com</a>
   <p>LinkedIn: </p><a href="https://www.linkedin.com/in/javier-vargas-gonza/">Javier Vargas</a>
   <p>GitHub: </p><a href="https://github.com/javiervargasgonzalez">https://github.com/javiervargasgonzalez</a>
   <p>Projects: </p><a href="https://www.kaggle.com/javiervargasgonzlez">Projects</a>
+  </section>
+</div>
+
+<div class="cv">
+<section class="cv">
+  <h2 data-es="Currículum" data-en="CV/Resume"></h2>
+  <a href="Javier_Vargas.ESG_Analyst_EN.pdf" download>Descargar CV (PDF)</a>
 </section>
 </div>
 
