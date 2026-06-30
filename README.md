@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -14,11 +14,12 @@
   <button onclick="showView('contact')">Contact</button>
 </nav>
   <div class="view home active">
-  <header>
+ 
     <div class="lang-switch">
     <button onclick="setLanguage('es')">ES</button>
     <button onclick="setLanguage('en')">EN</button>
   </div>
+  <header>
 <div class="view about">
 <h1 data-es="Javier Vargas González" data-en="Javier Vargas"></h1>
   <p data-es="Ingeniero ambiental, ESG & Analista de Datos de Carbono"
@@ -129,7 +130,7 @@
 <div class="view contact">
   <section class="contact">
     <h2 data-es="Contacto" data-en="Contact information"></h2>
-  <p>Email: </p><a href="javo.vg@gmail.com">javo.vg@gmail.com</a>
+  <p>Email: javo.vg@gmail.com</p>
   <p>LinkedIn: </p><a href="https://www.linkedin.com/in/javier-vargas-gonza/">Javier Vargas</a>
   <p>GitHub: </p><a href="https://github.com/javiervargasgonzalez">https://github.com/javiervargasgonzalez</a>
   <p>Projects: </p><a href="https://www.kaggle.com/javiervargasgonzlez">Projects</a>
@@ -142,6 +143,7 @@
   <a href="Javier_Vargas.ESG_Analyst_EN.pdf" download>Descargar CV (PDF)</a>
 </section>
 </div>
+
 
 <footer>
   <p>© 2026 Site Created by: Javier Vargas</p>
