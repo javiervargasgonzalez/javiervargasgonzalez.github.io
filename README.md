@@ -140,7 +140,7 @@
 <div class="cv">
 <section class="cv">
   <h2 data-es="Currículum" data-en="CV/Resume"></h2>
-  <a href="Javier_Vargas.ESG_Analyst_EN.pdf" download>Descargar CV (PDF)</a>
+  <a href="Javier_Vargas_ESG_Analyst_Resume(1).pdf" download>Descargar CV (PDF)</a>
 </section>
 </div>
 
