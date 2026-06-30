@@ -8,3 +8,16 @@ function setLanguage(lang) {
 
 // Idioma por defecto
 setLanguage("es");
+
+function showView(viewName) {
+  document.querySelectorAll('.view').forEach(v => {
+    v.classList.remove('active');
+  });
+
+  document.querySelector(`.${viewName}`).classList.add('active');
+
+  document.body.className = viewName;
+}
+
+// Vista inicial
+showView('home');
