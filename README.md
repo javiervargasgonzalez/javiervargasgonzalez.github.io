@@ -109,9 +109,9 @@
 <section class="contact">
   <h2 data-es="Contacto" data-en="Contact information"></h2>
   <p>Email: </p><a href="javo.vg@gmail.com">javo.vg@gmail.com</a>
-  <p>LinkedIn: </p><a href="linkedin.com/in/javier-vargas-gonza">Javier Vargas</a>
-  <p>GitHub: </p><a href="linkedin.com/in/javier-vargas-gonza">linkedin.com/in/javier-vargas-gonza</a>
-  <p>Projects: </p><a href="https://www.kaggle.com/javiervargasgonzlez)">Projects</a>
+  <p>LinkedIn: </p><a href="https://www.linkedin.com/in/javier-vargas-gonza/">Javier Vargas</a>
+  <p>GitHub: </p><a href="https://github.com/javiervargasgonzalez">https://github.com/javiervargasgonzalez</a>
+  <p>Projects: </p><a href="https://www.kaggle.com/javiervargasgonzlez">Projects</a>
 </section>
 <section class="language">
   <h2 data-es="Idiomas" data-en="Languages"></h2>
