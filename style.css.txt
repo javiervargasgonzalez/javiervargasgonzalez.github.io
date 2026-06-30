@@ -55,6 +55,35 @@ footer {
   padding: 5px 10px;
   cursor: pointer;
 }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Views */
+.view {
+  display: none;
+}
+
+.view.active {
+  display: block;
+}
+
+/* Transiciones */
+body {
+  transition: background 0.4s ease, color 0.4s ease;
+}
 body.home {
   background: #0f172a;
   color: #e5e7eb;
