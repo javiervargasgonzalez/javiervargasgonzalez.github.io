@@ -55,3 +55,22 @@ footer {
   padding: 5px 10px;
   cursor: pointer;
 }
+body.home {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+body.about {
+  background: #064e3b;
+  color: #ecfdf5;
+}
+
+body.portfolio {
+  background: #020617;
+  color: #e2e8f0;
+}
+
+body.contact {
+  background: #3b0764;
+  color: #f5d0fe;
+}
