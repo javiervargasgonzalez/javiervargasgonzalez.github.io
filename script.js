@@ -1,23 +1,21 @@
-function setLanguage(lang) {
-  document.documentElement.lang = lang;
-
-  document.querySelectorAll("[data-es]").forEach(el => {
-    el.textContent = el.dataset[lang];
-  });
+function showView(view) {
+  document.querySelectorAll(".view").forEach(v =>
+    v.classList.remove("active")
+  );
+  document.querySelector("." + view).classList.add("active");
 }
 
-// Idioma por defecto
-setLanguage("es");
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const full = btn.previousElementSibling;
+    const preview = full.previousElementSibling;
 
-function showView(viewName) {
-  document.querySelectorAll('.view').forEach(v => {
-    v.classList.remove('active');
+    if (full.style.display === "block") {
+      full.style.display = "none";
+      btn.textContent = "Read more";
+    } else {
+      full.style.display = "block";
+      btn.textContent = "Show less";
+    }
   });
-
-  document.querySelector(`.${viewName}`).classList.add('active');
-
-  document.body.className = viewName;
-}
-
-// Vista inicial
-showView('home');
+});
