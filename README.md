@@ -1,3 +1,9 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Javier Vargas | ESG & Data Analyst</title>
+  <link rel="stylesheet" href="style.css.txt">
+</head>
 <body class="home">
 
 <nav class="nav">
