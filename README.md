@@ -131,6 +131,9 @@ However, the way we understand and respond to this issue often depends on how we
           </a>
         </div>
 
+        <button   class="toggle"   data-es="Leer más"   data-en="Read more">
+        </button>
+
   <div class="project-card">
         <h3 data-es="Caso de estudio de análisis de Cyclistic Bike-Share" 
       data-en="Cyclistic Bike-Share Analysis Case Study"></h3>>
@@ -139,7 +142,7 @@ However, the way we understand and respond to this issue often depends on how we
         </p>
 
   <div class="full">
-          < <p data-es= "El caso de estudio de Cyclistic Bike Share es el proyecto final del Certificado Profesional de Análisis de Datos de Google. En este caso de estudio, aborda una estrategia de marketing destinada a convertir a los usuarios ocasionales en miembros de Cyclistic. El análisis sigue las etapas del proceso de análisis de datos: Preguntar, Preparar, Procesar, Analizar, Compartir y Actuar. Programación en R. Procesamiento y análisis de más de 2.836.654 registros de bicicletas compartidas correspondientes a 2024. Agregación y visualización de datos mediante el uso de ggplot2, tidyr y dplyr."
+           <p data-es= "El caso de estudio de Cyclistic Bike Share es el proyecto final del Certificado Profesional de Análisis de Datos de Google. En este caso de estudio, aborda una estrategia de marketing destinada a convertir a los usuarios ocasionales en miembros de Cyclistic. El análisis sigue las etapas del proceso de análisis de datos: Preguntar, Preparar, Procesar, Analizar, Compartir y Actuar. Programación en R. Procesamiento y análisis de más de 2.836.654 registros de bicicletas compartidas correspondientes a 2024. Agregación y visualización de datos mediante el uso de ggplot2, tidyr y dplyr."
       data-en="The Cyclistic Bike Share Case Study is the final capstone project for the Google Data Analytics Professional Certificate. In this project, an analysis of user data was used to design a marketing strategy aimed at converting casual riders into annual members. The study followed the six core stages of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act. Programming in R. Processed and Analyzed over 2836654 bike-share records of 2024. Aggregated and visualized the data by using ggplot2, tidyr,dyplr.">
     </p>
     <a href="https://www.kaggle.com/code/javiervargasgonzlez/cyclistic-bike-share-analysis-case-study">
