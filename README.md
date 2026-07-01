@@ -136,7 +136,7 @@ However, the way we understand and respond to this issue often depends on how we
 
   <div class="project-card">
         <h3 data-es="Caso de estudio de análisis de Cyclistic Bike-Share" 
-      data-en="Cyclistic Bike-Share Analysis Case Study"></h3>>
+      data-en="Cyclistic Bike-Share Analysis Case Study"></h3>
         <p class="preview">
           Analysis of user data to design a marketing strategy...
         </p>
@@ -155,6 +155,7 @@ However, the way we understand and respond to this issue often depends on how we
 
     </div>
   </div>
+
 </section>
 
 <!-- CONTACT -->
