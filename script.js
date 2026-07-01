@@ -1,3 +1,15 @@
+let currentLang = "es";
+
+function setLanguage(lang) {
+  currentLang = lang;
+  document.documentElement.lang = lang;
+
+  document.querySelectorAll("[data-es]").forEach(el => {
+    el.textContent = el.dataset[lang];
+  });
+}
+
+/* Tabs */
 function showView(view) {
   document.querySelectorAll(".view").forEach(v =>
     v.classList.remove("active")
@@ -5,17 +17,18 @@ function showView(view) {
   document.querySelector("." + view).classList.add("active");
 }
 
-document.querySelectorAll(".toggle").forEach(btn => {
-  btn.addEventListener("click", () => {
-    const full = btn.previousElementSibling;
-    const preview = full.previousElementSibling;
+/* Expandir proyectos */
+document.addEventListener("click", e => {
+  if (e.target.classList.contains("toggle")) {
+    const full = e.target.previousElementSibling;
+    const isOpen = full.style.display === "block";
 
-    if (full.style.display === "block") {
-      full.style.display = "none";
-      btn.textContent = "Read more";
-    } else {
-      full.style.display = "block";
-      btn.textContent = "Show less";
-    }
-  });
+    full.style.display = isOpen ? "none" : "block";
+    e.target.textContent = isOpen
+      ? e.target.dataset[currentLang]
+      : currentLang === "es" ? "Mostrar menos" : "Show less";
+  }
 });
+
+/* Idioma inicial */
+setLanguage("es");
