@@ -109,7 +109,13 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
-
+.setLanguage('es'), .setLanguage('en'){
+  border-radius: 30%
+  background-color: midnightblue;
+  color: smokewhite;
+  padding: 10px;
+  margin: 10 px;
+}
 footer {
   text-align: center;
   padding: 20px;
