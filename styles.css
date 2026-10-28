@@ -1,11 +1,9 @@
 body {
-    background-image: url('forrest.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
-    margin: 0;
+     margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background: var(--light);
+  color: #111;
+  background: linear-gradient(to right, lightblue, lightgreen);
 }
 
 
