@@ -6,6 +6,11 @@ body {
   background: linear-gradient(to right, lightblue, lightgreen);
 }
 
+h1{
+     color: hsla(100,50%,35%,0.8);
+     padding: 20px;
+     margin: 20px;
+}
 
 /* NAV */
 .nav {
