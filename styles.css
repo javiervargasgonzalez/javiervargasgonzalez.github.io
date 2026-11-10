@@ -406,3 +406,121 @@ footer {
     }
 }
 
+
+/* ==================================
+   VERTICAL LAYOUT
+================================== */
+
+/* Contenido principal */
+body {
+    display: block;
+    width: 100%;
+}
+
+/* Secciones una debajo de otra */
+section {
+    display: block;
+    width: min(900px, 90%);
+    margin: 0 auto 45px;
+}
+
+/* Encabezado */
+header {
+    display: block;
+    width: min(1100px, 90%);
+    margin: 30px auto 50px;
+}
+
+/* Formación académica */
+.studies ul {
+    display: block;
+}
+
+.studies li {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+/* Habilidades */
+.skills ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.skills li {
+    width: fit-content;
+    max-width: 100%;
+}
+
+/* Idiomas */
+.language ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.language li {
+    width: 100%;
+}
+
+/* Proyectos */
+.portfolio {
+    display: block;
+}
+
+.portfolio .project {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* Contacto */
+.contact {
+    display: block;
+}
+
+.contact p,
+.contact a {
+    display: block;
+}
+
+/* Navegación vertical */
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto 45px;
+}
+
+/* Selector de idioma */
+.lang-switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* CV */
+.cv {
+    display: block;
+    text-align: center;
+}
+
+/* Adaptación móvil */
+@media (max-width: 768px) {
+    section {
+        width: 92%;
+    }
+
+    header {
+        width: 92%;
+    }
+
+    .skills li {
+        width: fit-content;
+    }
+}
+
