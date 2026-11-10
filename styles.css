@@ -45,7 +45,7 @@ body {
 /* GENERAL CONTAINER */
 body {
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 
 section,
