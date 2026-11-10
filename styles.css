@@ -1,34 +1,8 @@
 
-/* =====================================
-   JAVIER VARGAS | ESG & DATA ANALYST
-   Professional Portfolio
-===================================== */
-
-/* GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
-
-/* VARIABLES */
-:root {
-    --primary: #153D32;
-    --secondary: #267A5B;
-    --accent: #79B99A;
-
-    --background: #F5F7F4;
-    --surface: #FFFFFF;
-
-    --text: #26332D;
-    --muted: #748078;
-
-    --border: #E3EAE4;
-
-    --shadow: 0 8px 30px rgba(21, 61, 50, 0.07);
-}
-
-/* RESET */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+
 }
 
 html {
@@ -37,14 +11,15 @@ html {
 
 body {
     font-family: 'DM Sans', sans-serif;
-    background: var(--background);
-    color: var(--text);
+    background-color: #F5F7F4;
+    color: #26332D;
     line-height: 1.7;
+   display: flex;
 }
 
 /* GENERAL CONTAINER */
 body {
-    max-width: 90%;
+    max-width: 100%;
 
 }
 
