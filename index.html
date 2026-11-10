@@ -5,15 +5,19 @@
   <title>Javier Vargas | ESG & Data Analyst</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>  
+<body>
   <div class="lang-switch">
     <button onclick="setLanguage('es')">ES</button>
     <button onclick="setLanguage('en')">EN</button>
 
-    <p data-es="Javier Vargas González 
-      Ingeniero ambiental, ESG & Analista de Datos de Carbono"
-     data-en="Javier Vargas
-      Environmental Engineer, ESG & Data Analyst"></p>
+  <header>
+    <h1 data-es="Javier Vargas González"
+      data-en="Javier Vargas"></h1>
+
+    <p data-es="Ingeniero ambiental, ESG y Analista de Datos de Carbono"
+     data-en="Environmental Engineer, ESG & Data Analyst"></p>
+  </header>
+    
   <section class="about">
     <h2 data-es="Sobre mí" data-en="About me"></h2>
     <p data-es="Ingeniero Ambiental y Analista enfocado en Reportaje ESG, energias renovables y emisiones de carbono. Con 3 años de experiencia en supervisión de Seguridad y Medio Ambiente, Análisis de datos y reportaje ESG. "
@@ -71,9 +75,9 @@
   
     <ul>
       <li data-es="Español (Nativo)" 
-      data-en="Spanish= (Native)"></li>
+      data-en="Spanish (Native)"></li>
       <li data-es="Inglés (Profesional)" 
-      data-en="English= (Proficient)"></li>
+      data-en="English (Proficient)"></li>
     </ul>
   </section>
 
@@ -125,16 +129,26 @@
 
     <section class="cv">
       <h2 data-es="Currículum" data-en="CV/Resume"></h2>
-      <a href="Javier_Vargas_ESG_Analyst_Resume(1).pdf" download>Descargar CV (PDF)</a>
+      <a href="Javier_Vargas_ESG_Analyst_Resume(1).pdf" download target="_blank">Descargar CV (PDF)</a>
     </section>
 
 
 
-<footer>
+  <footer>
   <p>© 2026 Javier Vargas</p>
-</footer>
+  </footer>
 
+<script>
+        function setLanguage(lang) {
+            document.documentElement.lang = lang;
 
+            document.querySelectorAll('[data-es]').forEach(element => {
+                element.textContent = element.getAttribute('data-' + lang);
+            });
+        }
+
+        setLanguage('es');
+    </script>
 
 </body>
 </html>
