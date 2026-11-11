@@ -63,32 +63,6 @@ footer {
     margin-right: auto;
 }
 
-
-.lang-switch {
-    width: min(1100px, 90%);
-    margin: 25px auto;
-    display: flex;
-    justify-content: flex-end;
-    gap: 8px;
-}
-
-.lang-switch button {
-    border: 1px solid var(--border);
-    background: white;
-    color: var(--primary);
-    padding: 9px 18px;
-    border-radius: 8px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-
-.lang-switch button:hover {
-    background: var(--primary);
-    color: white;
-}
-
-
 header {
     background: linear-gradient(135deg, #153D32, #267A5B);
     color: white;
