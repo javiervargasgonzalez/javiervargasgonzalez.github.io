@@ -1,7 +1,27 @@
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+
+:root {
+    --primary: #153D32;
+    --secondary: #267A5B;
+    --accent: #79B99A;
+
+    --background: #F5F7F4;
+    --surface: #FFFFFF;
+
+    --text: #26332D;
+    --muted: #748078;
+
+    --border: #E3EAE4;
+
+    --shadow: 0 8px 30px rgba(21, 61, 50, 0.07);
+}
+
 * {
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 
 }
 
@@ -14,13 +34,25 @@ body {
     background-color: #F5F7F4;
     color: #26332D;
     line-height: 1.7;
-   display: flex;
+    display: flex;
+    flex-direction: column;
 }
 
-/* GENERAL CONTAINER */
-body {
-    max-width: 100%;
 
+html, body {
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
 }
 
 section,
@@ -31,7 +63,7 @@ footer {
     margin-right: auto;
 }
 
-/* LANGUAGE SWITCH */
+
 .lang-switch {
     width: min(1100px, 90%);
     margin: 25px auto;
@@ -56,7 +88,7 @@ footer {
     color: white;
 }
 
-/* HEADER */
+
 header {
     background: linear-gradient(135deg, #153D32, #267A5B);
     color: white;
@@ -107,7 +139,7 @@ section h2::after {
     left: 0;
 }
 
-/* ABOUT */
+
 .about {
     background: var(--surface);
     padding: 38px;
@@ -121,7 +153,7 @@ section h2::after {
     max-width: 850px;
 }
 
-/* EDUCATION */
+
 .studies ul {
     list-style: none;
     display: grid;
@@ -165,7 +197,7 @@ section h2::after {
     transform: translateY(-3px);
 }
 
-/* LANGUAGES */
+
 .language ul {
     list-style: none;
     display: flex;
@@ -181,7 +213,7 @@ section h2::after {
     font-weight: 600;
 }
 
-/* PORTFOLIO */
+
 .portfolio {
     padding-top: 10px;
 }
@@ -267,7 +299,7 @@ section h2::after {
     text-decoration: underline;
 }
 
-/* CV */
+
 .cv {
     text-align: center;
     background: white;
@@ -292,7 +324,7 @@ section h2::after {
     transform: translateY(-3px);
 }
 
-/* FOOTER */
+
 footer {
     text-align: center;
     padding: 30px 15px;
@@ -349,8 +381,8 @@ footer {
     }
 }
 
-/* SMALL MOBILE */
-@media (max-width: 480px) {
+
+@media (max-width: 600px) {
 
     section,
     header,
@@ -382,119 +414,7 @@ footer {
 }
 
 
-/* ==================================
-   VERTICAL LAYOUT
-================================== */
 
-/* Contenido principal */
-body {
-    display: block;
-    width: 100%;
-}
-
-/* Secciones una debajo de otra */
-section {
-    display: block;
-    width: min(900px, 90%);
-    margin: 0 auto 45px;
-}
-
-/* Encabezado */
-header {
-    display: block;
-    width: min(1100px, 90%);
-    margin: 30px auto 50px;
-}
-
-/* Formación académica */
-.studies ul {
-    display: block;
-}
-
-.studies li {
-    display: block;
-    width: 100%;
-    margin-bottom: 12px;
-}
-
-/* Habilidades */
-.skills ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-}
-
-.skills li {
-    width: fit-content;
-    max-width: 100%;
-}
-
-/* Idiomas */
-.language ul {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.language li {
-    width: 100%;
-}
-
-/* Proyectos */
-.portfolio {
-    display: block;
-}
-
-.portfolio .project {
-    display: block;
-    width: 100%;
-    margin-bottom: 25px;
-}
-
-/* Contacto */
-.contact {
-    display: block;
-}
-
-.contact p,
-.contact a {
-    display: block;
-}
-
-/* Navegación vertical */
-.navigation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    margin: 0 auto 45px;
-}
-
-/* Selector de idioma */
-.lang-switch {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-/* CV */
-.cv {
-    display: block;
-    text-align: center;
-}
-
-/* Adaptación móvil */
-@media (max-width: 768px) {
-    section {
-        width: 92%;
-    }
-
-    header {
-        width: 92%;
-    }
-
-    .skills li {
         width: fit-content;
     }
 }
